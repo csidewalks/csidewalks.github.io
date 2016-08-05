@@ -17,7 +17,7 @@ public object CSideWalksRoot
 	/**
 	 * Initialize the global objects accessible with `$CSideWalks`.
 	 */
-	public Object Globals = CSideWalks:CSideWalksGlobals
+	public Object Globals = CSideWalks::CSideWalksGlobals
 
 	/**
 	 * OSpace startup logic.
