@@ -7,17 +7,17 @@ date:   2016-08-02 14:00:00 +0100
 This is the first post. As such there is not much to tell yet. You can subscribe to the [feed] to keep updated.
 
 ``` java
-package CSIDEWalks
+package CSideWalks
 
 /**
- * The root of OScript Adventures.
+ * The root of out CSide Walks.
  */
-public object CSIDERoot
+public object CSideWalksRoot
 
 	/**
-	 * Initialize the global objects accessible with `$CSIDE`.
+	 * Initialize the global objects accessible with `$CSideWalks`.
 	 */
-	public Object Globals = CSIDE::CSIDEGlobals
+	public Object Globals = CSideWalks:CSideWalksGlobals
 
 	/**
 	 * OSpace startup logic.
@@ -28,7 +28,7 @@ public object CSIDERoot
 		// Initialize globals object
 		//
 	
-		Object	globals = $CSIDE = .Globals.Initialize()
+		Object	globals = $CSideWalks = .Globals.Initialize()
 	
 		//
 		// Initialize objects with __Init methods
